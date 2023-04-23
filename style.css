@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fundo {
+    background-image: url(https://images2.alphacoders.com/678/678913.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav h2 {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    letter-spacing: 5px;
+
+}
+
+span {
+    color: #8A2BE2;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 25px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #8A2BE2;
+    transform: scale(1.2);
+}
+
+.btn {
+    background-color: #8A2BE2;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 25px;
+    transition: transform .4s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50);
+
+}
+
+h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin: 20px 10px 20px;
+}
+
+.main h2 {
+    color: #8A2BE2;
+    font-size: 55px;
+    margin: 20px 10px 20px;
+}
+
+.card form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.email {
+    display: inline-block;
+    width: 50%;
+    padding: 14px 130px 14px 15px;
+    border-radius: 30px;
+    outline: none;
+}
+
+.submit {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #8A2BE2;
+    color: white;
+    box-shadow: 0px 0px 15px #858585;
+    right: 575px;
+    top: 246px;
+}
+
+.main-sobre {
+    display: flex;
+    padding: 25px 15px 15px 15px;
+    background-color: #613be7;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-sobre img {
+    width: 650px;
+}
+
+.text-sobre h2 {
+    right: 25px;
+    text-align: center;
+    padding: 0px 0px 25px 25px;
+    bottom: 50px;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-sobre h6 {
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    text-align: justify;
+    margin: 25px;
+    text-decoration: dashed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.caixa-Topicos {
+    background-image: url(https://www.pixel4k.com/wp-content/uploads/2018/09/stars-space-galaxy-4k_1536013796.jpg);
+    background-size: cover;
+    width: 100%;
+    padding: 100px 10px;
+}
+
+
+.titulo h2 {
+    background-image: url(https://www.pixel4k.com/wp-content/uploads/2018/09/stars-space-galaxy-4k_1536013796.jpg);
+    color: #fff;
+    display: inline-block;
+    background-size: cover;
+    font-size: 75px;
+    width: 100%;
+    text-align: center;
+}
+
+.caixa-Topicos {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+
+.card-02 {
+    background-color: #613be7;
+    height: 365px;
+    width: 310px;
+    border: 20px;
+    border-radius: 25px;
+    margin: 25px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px 10px;
+
+}
+
+.card-02 i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #1e0f8d;
+
+}
+
+.card-02 h5 {
+    font-size: 26px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.card-02 p {
+    color: #cfadf6;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card-02 button {
+    background-color: #1e0f8d;
+    border: none;
+}
+
+.card-02 button:hover {
+    background-color: transparent;
+    border: 2px solid #1e0f8d;
+    cursor: pointer;
+}
+
+.video-p {
+    padding: 25px 25px 25px 25px;
+    background-color: #613be7;
+}
+
+.video-p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-You {
+    margin: 40px;
+    justify-content: center;
+}
+
+.descriçao {
+    text-align: justify;
+    font-size: 20px;
+    margin: 15px;
+    line-height: 27px;
+}
+
+.titulo-01 {
+    color: white;
+    font-size: 35px;
+    margin: 25px;
+}
+
+.conteudo {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.galeria-wrapper {
+    overflow-y: auto;
+}
+
+.galeria {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+}
+
+.galeria p {
+    width: 100%;
+    color: #8A2BE2;
+    margin: 25px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #613be7;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-md-4 {
+    width: 33.33%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  
+  h4 {
+    margin-top: 0;
+  }
+  
+  p {
+    margin: 0 0 10px 0;
+  }
+  
+  .footer-social {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-social li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-social a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .footer-social i {
+    margin-right: 10px;
+  }
+  
+  .footer-contact {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-contact li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-contact i {
+    margin-right: 10px;
+  }
+  
+  hr {
+    border-color: #444;
+    margin: 30px 0;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Estilos para os ícones */
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .fa-facebook:before {
+    content: "\f09a";
+  }
+  
+  .fa-twitter:before {
+    content: "\f099";
+  }
+  
+  .fa-instagram:before {
+    content: "\f16d";
+  }
+  
+  .fa-youtube:before {
+    content: "\f16a";
+  }
+  
+  .fa-github:before {
+    content: "\f09b";
+  }
+  
+  /* Estilos para o link do GitHub */
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ccc;
+  }
+  
